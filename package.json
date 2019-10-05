@@ -11,7 +11,7 @@
     "test-watch": "ava --watch",
     "compile": "npm run clean && babel src --out-dir lib",
     "compile-watch": "babel src --watch --out-dir lib",
-    "install": "npm install @babel/cli && npm run compile",
+    "install": "npm install @babel/cli @babel/core @babel/preset-env @babel/register && npm run compile",
     "prepublishOnly": "npm run compile",
     "develop": "npm run clean && (npm run compile-watch & npm run test-watch)"
   },
@@ -42,9 +42,9 @@
   },
   "devDependencies": {
     "@babel/cli": "^7.6.2",
-    "@babel/core": "^7.5.5",
-    "@babel/preset-env": "^7.5.5",
-    "@babel/register": "^7.5.5",
+    "@babel/core": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
+    "@babel/register": "^7.6.2",
     "ava": "^2.3.0",
     "eslint": "^6.0.0",
     "eslint-config-standard": "^14.0.1",
