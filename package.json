@@ -11,7 +11,7 @@
     "test-watch": "ava --watch",
     "compile": "npm run clean && babel src --out-dir lib",
     "compile-watch": "babel src --watch --out-dir lib",
-    "install": "npm install && npm run compile",
+    "install": "npm install @babel/cli && npm run compile",
     "prepublishOnly": "npm run compile",
     "develop": "npm run clean && (npm run compile-watch & npm run test-watch)"
   },
@@ -41,7 +41,7 @@
     "node": ">=8.9.4"
   },
   "devDependencies": {
-    "@babel/cli": "^7.5.5",
+    "@babel/cli": "^7.6.2",
     "@babel/core": "^7.5.5",
     "@babel/preset-env": "^7.5.5",
     "@babel/register": "^7.5.5",
@@ -52,7 +52,6 @@
     "eslint-plugin-node": "^9.0.0",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.1",
-    "plop": "ArchiCroc/plop#v2.5.0-beta",
     "plop-pack-fancy-comments": "^0.2.1",
     "pre-commit": "^1.x"
   },
