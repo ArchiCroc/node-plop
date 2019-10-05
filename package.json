@@ -11,7 +11,7 @@
     "test-watch": "ava --watch",
     "compile": "npm run clean && babel src --out-dir lib",
     "compile-watch": "babel src --watch --out-dir lib",
-    "install": "npm run compile",
+    "install": "npm install && npm run compile",
     "prepublishOnly": "npm run compile",
     "develop": "npm run clean && (npm run compile-watch & npm run test-watch)"
   },
