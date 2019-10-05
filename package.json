@@ -1,8 +1,8 @@
 {
   "name": "node-plop",
-  "version": "0.19.0",
+  "version": "0.20.0-beta",
   "description": "programmatic plopping for fun and profit",
-  "main": "lib/index.js",
+  "main": "src/index.js",
   "types": "index.d.ts",
   "scripts": {
     "clean": "node ./build-scripts/clean",
@@ -20,7 +20,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/amwmedia/node-plop.git"
+    "url": "git+https://github.com/ArchiCroc/node-plop.git"
   },
   "keywords": [
     "plop",
@@ -33,9 +33,9 @@
   "author": "Andrew Worcester <andrew@amwmedia.com> (http://amwmedia.com)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/amwmedia/node-plop/issues"
+    "url": "https://github.com/ArchiCroc/node-plop/issues"
   },
-  "homepage": "https://github.com/amwmedia/node-plop#readme",
+  "homepage": "https://github.com/ArchiCroc/node-plop#readme",
   "engines": {
     "node": ">=8.9.4"
   },
@@ -51,7 +51,7 @@
     "eslint-plugin-node": "^9.0.0",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.1",
-    "plop": "^2.4.0",
+    "plop": "ArchiCroc/plop#v2.5.0-beta",
     "plop-pack-fancy-comments": "^0.2.1",
     "pre-commit": "^1.x"
   },
