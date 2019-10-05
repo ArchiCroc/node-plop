@@ -2,7 +2,7 @@
   "name": "node-plop",
   "version": "0.20.0-beta",
   "description": "programmatic plopping for fun and profit",
-  "main": "src/index.js",
+  "main": "lib/index.js",
   "types": "index.d.ts",
   "scripts": {
     "clean": "node ./build-scripts/clean",
